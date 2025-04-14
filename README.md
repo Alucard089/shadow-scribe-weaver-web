@@ -3,19 +3,19 @@
 
 ## Project Deployment
 
-This project is set up to deploy automatically to GitHub Pages using GitHub Actions.
+This project is set up to deploy automatically to the Alucard.github.io repository using GitHub Actions.
 
 ### Deployment Steps
 
 1. Ensure you have pushed all your changes to the `main` branch of your GitHub repository.
 2. The GitHub Actions workflow will automatically:
    - Build the project
-   - Deploy to GitHub Pages
+   - Deploy to Alucard.github.io repository
 
 ### Accessing the Deployed Site
 
 After deployment, your site will be available at:
-`https://<your-github-username>.github.io/shadow-scribe-weaver-web/`
+`https://Alucard.github.io`
 
 ## Local Development
 

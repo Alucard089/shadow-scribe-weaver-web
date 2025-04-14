@@ -6,7 +6,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/shadow-scribe-weaver-web/', // Add this line for GitHub Pages
+  base: '/', // Changed from '/shadow-scribe-weaver-web/' for direct GitHub Pages deployment
   server: {
     host: "::",
     port: 8080,
