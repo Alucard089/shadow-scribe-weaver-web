@@ -72,11 +72,20 @@ export default {
         scaleIn: {
           '0%': { transform: 'scale(0.9)', opacity: '0' },
           '100%': { transform: 'scale(1)', opacity: '1' }
+        },
+        fillBar: {
+          '0%': { width: '0%' },
+          '100%': { width: '100%' }
+        },
+        pulse: {
+          '0%, 100%': { opacity: '1' },
+          '50%': { opacity: '0.5' }
         }
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-out',
-        'scale-in': 'scaleIn 0.5s ease-out'
+        'scale-in': 'scaleIn 0.5s ease-out',
+        'pulse': 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite'
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
