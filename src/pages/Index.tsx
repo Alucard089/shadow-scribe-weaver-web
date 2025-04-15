@@ -324,7 +324,7 @@ const Index = () => {
             <h2 className="text-3xl font-playfair text-bg3-purple mb-2">Download Resume</h2>
             <div className="h-0.5 w-20 mx-auto bg-gradient-to-r from-red-500 to-bg3-purple mb-12"></div>
             <a
-              href="/path-to-your-cv.pdf"
+              href="/lovable-uploads/Portfolio.pdf"
               download
               className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-red-500 to-bg3-purple text-white rounded-lg hover:from-red-600 hover:to-bg3-accent transition-all shadow-lg shadow-bg3-purple/20 group"
               data-type="cv-download"
