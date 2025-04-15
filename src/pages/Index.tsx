@@ -1,4 +1,3 @@
-
 import { EventTracker } from '@/components/EventTracker';
 import { TextAnalyzer } from '@/components/TextAnalyzer';
 import { SkillBar } from '@/components/SkillBar';
@@ -91,25 +90,33 @@ const Index = () => {
                   </div>
                 </div>
                 <div className="grid grid-cols-2 gap-4">
-                  <div className="aspect-square bg-bg3-dark rounded-lg overflow-hidden border border-bg3-accent/20 hover:border-red-500/30 transition-colors" data-type="local-image">
-                    <div className="w-full h-full bg-bg3-accent/20 flex items-center justify-center">
-                      <span className="text-sm text-bg3-light">Berhampore Image 1</span>
-                    </div>
+                  <div className="aspect-square bg-bg3-dark rounded-lg overflow-hidden border border-bg3-accent/20 hover:border-red-500/30 transition-colors">
+                    <img 
+                      src="/lovable-uploads/0d0012e0-bf23-47d6-b650-85b6f5c0d2fa.png"
+                      alt="Historic mosque in Berhampore"
+                      className="w-full h-full object-cover hover:scale-105 transition-transform"
+                    />
                   </div>
-                  <div className="aspect-square bg-bg3-dark rounded-lg overflow-hidden border border-bg3-accent/20 hover:border-red-500/30 transition-colors" data-type="local-image">
-                    <div className="w-full h-full bg-bg3-accent/20 flex items-center justify-center">
-                      <span className="text-sm text-bg3-light">Berhampore Image 2</span>
-                    </div>
+                  <div className="aspect-square bg-bg3-dark rounded-lg overflow-hidden border border-bg3-accent/20 hover:border-red-500/30 transition-colors">
+                    <img 
+                      src="/lovable-uploads/4be03055-9744-4751-8493-1924024e5cd5.png"
+                      alt="Hazarduari Palace"
+                      className="w-full h-full object-cover hover:scale-105 transition-transform"
+                    />
                   </div>
-                  <div className="aspect-square bg-bg3-dark rounded-lg overflow-hidden border border-bg3-accent/20 hover:border-red-500/30 transition-colors" data-type="local-image">
-                    <div className="w-full h-full bg-bg3-accent/20 flex items-center justify-center">
-                      <span className="text-sm text-bg3-light">Berhampore Image 3</span>
-                    </div>
+                  <div className="aspect-square bg-bg3-dark rounded-lg overflow-hidden border border-bg3-accent/20 hover:border-red-500/30 transition-colors">
+                    <img 
+                      src="/lovable-uploads/d918528c-7a38-4ce7-9217-6071ef26d234.png"
+                      alt="Colonial architecture in Berhampore"
+                      className="w-full h-full object-cover hover:scale-105 transition-transform"
+                    />
                   </div>
-                  <div className="aspect-square bg-bg3-dark rounded-lg overflow-hidden border border-bg3-accent/20 hover:border-red-500/30 transition-colors" data-type="local-image">
-                    <div className="w-full h-full bg-bg3-accent/20 flex items-center justify-center">
-                      <span className="text-sm text-bg3-light">Berhampore Image 4</span>
-                    </div>
+                  <div className="aspect-square bg-bg3-dark rounded-lg overflow-hidden border border-bg3-accent/20 hover:border-red-500/30 transition-colors">
+                    <img 
+                      src="/lovable-uploads/16331905-b8d9-4c1f-a709-8c7b12d0f957.png"
+                      alt="Berhampore cityscape"
+                      className="w-full h-full object-cover hover:scale-105 transition-transform"
+                    />
                   </div>
                 </div>
               </div>
